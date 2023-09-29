@@ -60,7 +60,7 @@
 package sf
 
 // @lc code=start
-func maxProfit(prices []int) int {
+func maxProfit2(prices []int) int {
 	length := len(prices)
 	dp0, dp1 := -prices[0], 0
 	for i := 1; i < length; i++ {
